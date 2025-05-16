@@ -48,7 +48,7 @@
         }
     
         // Load GeoJSON
-        // fetch('/geojson/kontum_merged.geojson') // sửa lại tên file nếu cần
+        // fetch('geojson/kontum_merged.geojson') // sửa lại tên file nếu cần
         //     .then(res => res.json())
         //     .then(data => {
         //         const geoLayer = L.geoJSON(data, {
@@ -72,7 +72,7 @@
         //         setupSearchControl(geoLayer);
         //     });
     
-            fetch('/geojson/kontum_merged.geojson')
+            fetch('geojson/kontum_merged.geojson')
                 .then(res => res.json())
                 .then(data => {
                     const geoLayer = L.geoJSON(data, {
